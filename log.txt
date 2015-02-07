@@ -1,0 +1,18 @@
+rake aborted!
+NoMethodError: private method `load' called for Psych:Module
+/home/akalfus/.rvm/gems/ruby-2.2.0/gems/sinatra-activerecord-2.0.5/lib/sinatra/activerecord.rb:34:in `database_file='
+/home/akalfus/.rvm/gems/ruby-2.2.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1208:in `set'
+/home/akalfus/.rvm/gems/ruby-2.2.0/gems/sinatra-activerecord-2.0.5/lib/sinatra/activerecord.rb:20:in `registered'
+/home/akalfus/.rvm/gems/ruby-2.2.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1391:in `block in register'
+/home/akalfus/.rvm/gems/ruby-2.2.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1389:in `each'
+/home/akalfus/.rvm/gems/ruby-2.2.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1389:in `register'
+/home/akalfus/.rvm/gems/ruby-2.2.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1970:in `register'
+/home/akalfus/.rvm/gems/ruby-2.2.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:2032:in `register'
+/home/akalfus/.rvm/gems/ruby-2.2.0/gems/sinatra-activerecord-2.0.5/lib/sinatra/activerecord.rb:55:in `<module:Sinatra>'
+/home/akalfus/.rvm/gems/ruby-2.2.0/gems/sinatra-activerecord-2.0.5/lib/sinatra/activerecord.rb:10:in `<top (required)>'
+/home/akalfus/Dropbox/College_Work/Spring_2015/cs105b_arikalfus/sinatraintro/app.rb:2:in `<top (required)>'
+/home/akalfus/Dropbox/College_Work/Spring_2015/cs105b_arikalfus/sinatraintro/Rakefile:1:in `<top (required)>'
+LoadError: cannot load such file -- sinatra/activerecord
+/home/akalfus/Dropbox/College_Work/Spring_2015/cs105b_arikalfus/sinatraintro/app.rb:2:in `<top (required)>'
+/home/akalfus/Dropbox/College_Work/Spring_2015/cs105b_arikalfus/sinatraintro/Rakefile:1:in `<top (required)>'
+(See full trace by running task with --trace)
